@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { modelName } = require("./Users");
 
 const PropertySchema = new mongoose.Schema(
   {
@@ -72,59 +73,3 @@ const PropertySchema = new mongoose.Schema(
 
 const PropertyModal = mongoose.model("porperty", PropertySchema);
 module.exports = PropertyModal;
-
-
-
-
-
-
-
-
-
-// const mongoose = require("mongoose");
-
-// const PropertySchema = new mongoose.Schema({
-//     id: {
-//         type: String,
-//         require: false,
-//       },
-//       // email: {
-//       //     type: String,
-//       //     require: false,
-//       //   },
-//         title: {
-//           type: String,
-//           require: false,
-//         },
-//         city: {
-//           type: String,
-//           required: false,
-//         },
-//         propertyType: {
-//           type: String,
-//           reqired: false,
-//         },
-//         area: {
-//           type: String,
-//           require: false,
-//         },
-//         finishType: {
-//             type: String,
-//             require: false,
-//           },
-//           price: {
-//             type: String,
-//             require: false,
-//           },
-//           bedRoom: {
-//             type: String,
-//             require: false,
-//           },
-//           bathRoom: {
-//             type: String,
-//             require: false,
-//           },
-// });
-
-// const PropertyModel = mongoose.model("property", PropertySchema);
-// module.exports = PropertyModel;

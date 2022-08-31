@@ -6,9 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "engines": {
-    "node": ">= 16.16.0"
-    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamzaamir538/server_real_estate_hackathon.git"

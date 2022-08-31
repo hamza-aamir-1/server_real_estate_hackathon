@@ -14,8 +14,8 @@ app.use(express.json());
 const cors = require("cors");
 app.use(cors());
 
-const UserModal = require("../Models/Users");
-const PropertyModal = require("../Models/Property");
+const UserModal = require("./Models/Users");
+const PropertyModal = require("./Models/Property");
 
 app.get("/", (request, response) => {
   response.send("Wellcome to Real Estate Serve");
